@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #234880;
+}
+
+header {
+    background-color: #234880;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 20px 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.nav-brand {
+    height: 24px;
+}
+
+.nav-primary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.nav-item.cta-btn a {
+    background-color: #38c5f2;
+    padding: 8px 22px;
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 40px 0 10px 0;
+}
+
+.header-subtitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: #79a3d9;
+    text-transform: capitalize;
+    margin: 0 0 30px 0;
+}
+
+#button-container {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.header-btn.cta-btn {
+    display: inline-block;
+    background-color: #38c5f2;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header-services {
+    list-style: none;
+    padding: 0;
+    margin: auto 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 1;
+    padding: 40px 30px;
+    transition: background-color 0.3s;
+}
+
+.service:hover {
+    background-color: #38c5f2;
+}
+
+.service-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.service-intro {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #ffffff;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.service-link {
+    display: block;
+    margin-top: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}

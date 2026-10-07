@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+/* Navigation */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    z-index: 10;
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.nav-primary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.button-cta a {
+    border: 2px solid #ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.button-cta a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    background: radial-gradient(ellipse at center, rgba(192,169,145,1) 0%, rgba(192,169,145,1) 59%, rgba(168,143,121,1) 100%);
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 60px;
+}
+
+.header-title {
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+}
+
+.header-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 40px 0;
+    opacity: 0.9;
+}
+
+.header-potato {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Main Features Section */
+.features {
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.features-title {
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+}
+
+.features-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    line-height: 1.5;
+    color: #777777;
+}
+
+.feature-potatoes {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Buy Now Pricing Section */
+.buy-now {
+    background-color: #ffffff;
+    color: #444444;
+    padding: 40px 80px 80px 80px;
+    text-align: center;
+}
+
+.order-title {
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.potato-types {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.potato {
+    flex: 1;
+    max-width: 320px;
+    padding: 0 20px;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.potato:last-child {
+    border-right: none;
+}
+
+.potato-title {
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.potato-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.potato-description {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 12px;
+}
+
+.btn-order {
+    background: transparent;
+    border: 1px solid #8cb82b;
+    color: #8cb82b;
+    padding: 8px 35px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-order:hover {
+    background-color: #8cb82b;
+    color: #ffffff;
+}
+
+.potato-price {
+    font-size: 12px;
+    color: #888888;
+    margin: 10px 0 30px 0;
+}
+
+.potato-img {
+    height: 120px;
+    object-fit: contain;
+}
+
+/* Footer */
+footer {
+    background-color: #837060;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
